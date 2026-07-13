@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DecodeLabs - Project 2 Fluid Layout</title>
+    <link rel="stylesheet" href="project2.css">
+</head>
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">DecodeLabs</a>
+        
+        <button class="nav-toggle" popovertarget="nav-menu">☰</button>
+        
+        <nav id="nav-menu" popover class="nav">
+            <ul class="nav__list">
+                <li><a href="#" class="nav__link">Home</a></li>
+                <li><a href="#" class="nav__link">Manage</a></li>
+                <li><a href="#" class="nav__link">Links</a></li>
+                <li><a href="#" class="nav__link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-layout">
+        <section class="hero">
+            <h1 class="hero__title">The Art of Fluidity</h1>
+            <p class="hero__text">Building responsive architectures from the content out. Content flows flawlessly across all modern device viewports.</p>
+            <button class="btn">Explore Core</button>
+        </section>
+
+        <section class="grid-container">
+            <article class="card">
+                <div class="card__visual"></div>
+                <h2 class="card__title">Fluid Architecture</h2>
+                <p class="card__desc">Using CSS Grid auto-fit properties to create seamless transitions without rigid device breakpoints.</p>
+            </article>
+            <article class="card">
+                <div class="card__visual"></div>
+                <h2 class="card__title">Mobile First</h2>
+                <p class="card__desc">Base CSS engineered for compact viewports, progressively enhanced for larger production monitors.</p>
+            </article>
+            <article class="card">
+                <div class="card__visual"></div>
+                <h2 class="card__title">Accessibility First</h2>
+                <p class="card__desc">Strict compliance with WCAG standards, utilizing native zoom capability and explicit touch sizes.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 DecodeLabs Industrial Training Kit. Fluid Layout Logic.</p>
+    </footer>
+
+</body>
+</html>
