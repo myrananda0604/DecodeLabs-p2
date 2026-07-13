@@ -8,6 +8,7 @@ HTML5 Popover API: Deployed a zero-JavaScript, native mobile navigation framewor
 Mobile-First Workflow: Baseline CSS engineered exclusively for compact viewports, progressively enhanced via @media (min-width: 768px) media queries for large screens.
 Grid + Flexbox Harmony: Leveraged dynamic CSS Grid (auto-fit and minmax(280px, 1fr)) for macro structural layout distribution, and Flexbox for micro-component alignment.
 Ergonomics & Touch Targets: Adheres to strict WCAG accessibility compliance by enforcing a minimum target size of 44px × 44px for optimal thumb-reach on mobile touchscreens.
+
 📂 File Structure
 project2.html - The responsive structural layout with native interactive nodes.
 project2.css - The fluid layout engineering stylesheet with progressive enhancements.
