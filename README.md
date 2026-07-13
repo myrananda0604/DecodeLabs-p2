@@ -12,3 +12,6 @@ This repository contains the solution for **Project 2: Responsive Web Layout (Th
 ### 📂 File Structure
 - `project2.html` - The responsive structural layout with native interactive nodes.
 - `project2.css` - The fluid layout engineering stylesheet with progressive enhancements.
+
+ ### Live Link
+ -https://myrananda0604.github.io/DecodeLabs-p2/project2.html
