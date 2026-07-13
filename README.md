@@ -1,1 +1,1 @@
-# DecodeLabs-p2
+# DecodeLabs Frontend Development Internship
